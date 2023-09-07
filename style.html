@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Вкладка</title>
+<style>
+    a {
+    color:aqua;
+    font-size: 27px;
+}
+    div {
+        color:rgb(0, 89, 255,);
+        font-size: 30px;
+    }
+    #kukold {
+        color:rgba(255, 0, 0,);
+        font-size: 30px;
+    }
+    .message {
+        color:rgb(97, 97, 97);
+        background-color: rgb(150, 150, 150);
+        border: 1px dashed #323232;
+        font-size: 20px;
+        margin: 10px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .success {
+        background-color: blue;
+    }
+    .info {
+        background-color: darkolivegreen;
+        color: #ffff
+    }
+    .message:hover {
+         border: 10px solid rgb(0, 0, 0)
+    }
+    .body {
+        background-image: url(C:\Users\notuser209\Desktop\Images/image.png);
+    }
+    .message1 {
+        transform: scale(0.3);
+        transition: 2.0s all;
+        background-color: brown;
+        color: aliceblue;
+        padding: 15px;
+        margin: 15px;
+        border: 7px solid darkred;
+        border-radius: 15px;
+        opacity: 0.5;
+        box-shadow: 3px 5px 27px #000000;
+        width: 60%;
+        display: block;
+        text-align: center;
+    }
+    .message1:hover {
+        opacity: 1;
+        cursor: pointer;
+        transform: rotate(0deg) scale(2.0);
+    }
+</style>
+</head>
+<body>
+    Привет <a href="https://www.youtube.com/">мир</a>!
+    <div>Привет <a href="https://www.youtube.com/">мир</a>!</div>
+    <div>Привет <a id="kukold" href="https://www.youtube.com/">мир</a>!</div>
+    <div class="message success">текст</div>
+    <div class="message info">Скоро будет чота</div>
+    <div class="message1">марк какает</div>
+</body>
+</html>
